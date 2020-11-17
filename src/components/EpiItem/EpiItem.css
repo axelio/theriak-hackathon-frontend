@@ -1,0 +1,64 @@
+.epiItem {
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 80px;
+    border: 1px solid rgba(124, 130, 130, 1);
+    border-bottom: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+}
+
+.epiItem:last-child {
+    border: 1px solid rgba(124, 130, 130, 1);
+}
+
+.epiText {
+    max-width: 70%;
+    font-size: 16px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.icon:active {
+    position: relative;
+    top: 1px;
+}
+
+.accept {
+    color: green;
+    margin-right: 10px;
+}
+
+.decline {
+    color: #df1414;
+    margin-left: 10px;
+}
+
+.epiIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+.nonActive {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 500px) {
+    .epiText{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .epiItem{
+        flex-direction: column;
+    }
+
+    .epiIcons {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,75 @@
+.trustPeopleContainer {
+    position: absolute;
+    right: 1%;
+    top: 5%;
+    border: 1px solid rgba(124, 130, 130, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    min-width: 350px;
+    max-height: 750px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: white;
+}
+
+.slideIn {
+    animation: slideIn 0.25s forwards !important;
+    -webkit-animation: slideIn 0.25s forwards !important;
+}
+
+@keyframes slideIn {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0%);}
+}
+
+.slideOut {
+    animation: slideOutUp 0.25s forwards !important;
+    -webkit-animation: slideOutUp 0.25s forwards !important;
+}
+
+@keyframes slideOutUp {
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(-100%);}
+}
+
+.trustPeopleContainer::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .trustPeopleContainer {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+        background: #fff;
+        min-height: 100%;
+        border: none;
+    }
+
+    .closeIcon {
+        margin: 15px 0px 10px 0px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        width: 100%;
+    }
+
+}
+
+.closeIcon {
+    align-self: flex-end;
+    font-size: 40px;
+    color: #005380;
+    margin: 10px 0px 10px 0px;
+}
+
+.peopleList {
+    margin-bottom: 10px;
+    width: 100%;
+}

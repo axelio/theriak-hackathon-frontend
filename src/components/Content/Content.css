@@ -1,0 +1,35 @@
+.contentContainer {
+    margin: 40px auto 0px auto;
+    position: relative;
+}
+
+.chain {
+    width: 400px;
+}
+
+.item {
+    min-height: 800px;
+}
+
+.icons {
+    color: #005380;
+    font-size: 50px;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .icons {
+        top: -3.1%;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        justify-content: center;
+    }
+
+    .contentContainer {
+        margin: 70px auto 0px auto;
+    }
+}

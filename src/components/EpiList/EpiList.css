@@ -1,0 +1,36 @@
+.epiList {
+    max-width: 700px;
+    padding: 0px 20px 20px 20px;
+    margin: 0 auto;
+    min-height: calc(100vh - 135px);
+}
+
+.textHeader {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font: bolder 25px Montserrat;
+    color: #005380;
+    text-transform: uppercase;
+}
+
+.textSubHeader {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font: bolder 15px Montserrat;
+    color: #0097eb;
+    text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    .textSubHeader {
+        font: bolder 10px Montserrat;
+    }
+}
+
+@media (max-width: 500px) {
+    .textHeader {
+        font: bolder 15px Montserrat;
+    }
+}
