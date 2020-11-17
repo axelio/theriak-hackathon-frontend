@@ -1,6 +1,6 @@
 Theriak - Odyssey Hackathon [winning project](https://solutions.odyssey.org/hackathon-2020-business-plan-for-peace-ministry-of-defence-conflict-prevention/).
 
-Full project repository [available here](https://github.com/fennelLabs/Theriak).
+Full project repository available on [Fennel Labs Github](https://github.com/fennelLabs/Theriak).
 
 I was responsible for developing simple one page React app and UX Design.
 
