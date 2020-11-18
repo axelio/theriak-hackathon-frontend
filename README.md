@@ -4,7 +4,7 @@ Full project repository available on [Fennel Labs Github](https://github.com/fen
 
 I was responsible for developing simple one page React app and UX Design.
 
-Screenshots:
+Screenshots(fake data):
 ![Mobile view](https://i.imgur.com/9gAFhqx.png)
 
 ![Desktop view](https://i.imgur.com/uyeBXpU.png)
